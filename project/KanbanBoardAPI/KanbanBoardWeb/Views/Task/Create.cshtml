@@ -1,0 +1,26 @@
+﻿@model KanbanBoardWeb.Models.Task
+
+<h1>Create Task</h1>
+<form asp-action="Create">
+    <div>
+        <label>Title</label>
+        <input asp-for="Title" />
+    </div>
+    <div>
+        <label>Description</label>
+        <input asp-for="Description" />
+    </div>
+    <div>
+        <label>Status</label>
+        <select asp-for="Status">
+            <option value="To Do">To Do</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Done">Done</option>
+        </select>
+    </div>
+    <div>
+        <label>Due Date</label>
+        <input asp-for="DueDate" type="date" />
+    </div>
+    <button type="submit">Create</button>
+</form>

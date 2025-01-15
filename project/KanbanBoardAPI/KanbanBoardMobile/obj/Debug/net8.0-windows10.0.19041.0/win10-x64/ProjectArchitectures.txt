@@ -1,0 +1,1 @@
+C:\Users\jgrom\Documents\studia\PAMiW\mobile-and-web-application-development\project\KanbanBoardAPI\KanbanBoardMobile\KanbanBoardMobile.csproj;x64
